@@ -1,0 +1,71 @@
+.notification {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.notification.success {
+  background-color: lightgray;
+  color: green;
+  border: 2px solid green;
+}
+
+.notification.error {
+  background-color: lightgray;
+  color: red;
+  border: 2px solid red;
+}
+
+.notification.info {
+  background-color: lightgray;
+  color: blue;
+  border: 2px solid blue;
+}
+
+.notification.default {
+  background-color: lightgray;
+  color: black;
+  border: 2px solid gray;
+}
+
+.blog {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.blog.expanded {
+  background-color: #f9f9f9;
+}
+
+.blog .title {
+  font-weight: bold;
+}
+
+.blog .details {
+  margin-top: 5px;
+}
+
+.spacing {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px
+}
+
+.blog .delete {
+  color: red;
+  border: 1px solid black;
+}
